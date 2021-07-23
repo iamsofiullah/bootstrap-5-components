@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Carousel</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="container py-5">
+
+    <!-- CAROUSEL -->
+
+    <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carouselId">
+        <div class="carousel-indicators">
+            <button data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#carouselId" data-bs-slide-to="1"></button>
+            <button data-bs-target="#carouselId" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slide1.jpg" alt="" class="img-fluid">
+                <div class="carousel-caption">
+                    <h4>First Slide Caption</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide2.jpg" alt="" class="img-fluid">
+                <div class="carousel-caption">
+                    <h4>Second Slide Caption</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide3.jpg" alt="" class="img-fluid">
+                <div class="carousel-caption">
+                    <h4>Third Slide Caption</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+</div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
